@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+header {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 2rem 0;
+  padding-left: 1.7rem;
+  padding-top: 1rem;
+}
+
+header .logo img {
+  width: 5rem;
+}
+
+header nav ul > li {
+  list-style-type: none;
+  font-size: 0.7rem;
+  font-weight: 500;
+  background-color: #fff;
+  padding: 0.4rem 1.5rem;
+  border-radius: 2rem;
+}
+
+main {
+  width: 1440px;
+  height: 85vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 1.7rem;
+  position: relative;
+}
+
+main .left-div-text {
+  padding: 0 4rem 0 0;
+  position: relative;
+  top: 3rem;
+}
+
+main .left-div-text h3 {
+  font-size: 1.5rem;
+  padding: 0 0 2rem;
+}
+
+main .left-div-text p {
+  font-size: 0.6rem;
+  line-height: 1.6;
+  padding-bottom: 1rem;
+}
+
+main .left-div-text a {
+  background-color:hsl(322, 100%, 66%) ;
+  font-size: 0.7rem;
+  font-family: 400;
+  padding: 0.5rem 1.6rem;
+  border-radius: 1.5rem;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+main .right-img-div img{
+  width: 33rem;
+  padding-left: 0rem;
+  padding-right: 6rem;
+}
+
+Nird
